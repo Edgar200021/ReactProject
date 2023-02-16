@@ -1,0 +1,26 @@
+[
+  {  
+		"id": 1,
+    "img": "/product1.jpg",
+    "title": "Silver",
+    "description": "Серебристый"
+  },
+  {
+		"id": 2,
+    "img": "/product2.jpg",
+    "title": "Deep purple",
+    "description": "Темно фиолетовый"
+  },
+  {  
+		"id": 3,
+    "img": "./product3.jpg",
+    "title": "Gold",
+    "description": "Золотой"
+  },
+  {
+		"id": 4,
+    "img": "/product4.jpg",
+    "title": "Spaceblack",
+    "description": "Космический черный"
+  }
+]
