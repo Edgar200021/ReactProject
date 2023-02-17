@@ -1,6 +1,7 @@
 .header {
   position: sticky;
   top: 0;
+	
 }
 
 .nav__inner,.nav-burger__inner {
@@ -142,7 +143,6 @@ transform: translateX(225%);
 }
 
 @media screen and (max-width: 408px){
-
 
 	.header__item{
 		font-size:2.5rem;

@@ -1,0 +1,9 @@
+.product__item {
+  display: flex;
+  text-align: start;
+}
+
+.product__title {
+  min-width: 30rem;
+  font-size: 2rem;
+}

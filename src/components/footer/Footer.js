@@ -3,7 +3,7 @@ import "./style.css"
 
 export default function Footer() {
   return (
-    <header className="footer">
+    <footer className="footer">
       <div className="container">
         <nav className="nav footer__nav">
           <a
@@ -21,6 +21,6 @@ export default function Footer() {
           </div>
         </nav>
       </div>
-    </header>
+    </footer>
   )
 }

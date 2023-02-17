@@ -7,7 +7,7 @@
 
 html {
   font-size: 62.5%;
-  height: 100%;
+	height:100%;
 }
 
 body {
@@ -17,14 +17,25 @@ body {
   font-size: 1.4rem;
   line-height: 2.9rem;
   height: 100%;
+
 }
 
-.app {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+#root{
+height:100%;
 }
+
+
+
+.App{
+display:flex;
+flex-direction:column;
+min-height:100vh;
+ }
+
+ main{
+	flex-grow:1;
+ }
+
 
 .container {
   max-width: 124.5rem;
@@ -68,6 +79,23 @@ body {
   color: #0a0a0a;
   text-transform: capitalize;
 }
+
+.products-store{
+	padding:5rem 0;
+	text-align:center;
+}
+
+.products__box{
+	display:flex;
+	align-items:center;
+	gap:5rem;
+	margin-bottom:3rem;
+}
+
+.products__img{
+	height:40rem;
+}
+
 
 @media screen and (max-width: 900px) {
   html {

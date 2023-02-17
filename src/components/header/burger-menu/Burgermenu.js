@@ -31,7 +31,7 @@ export default function Burgermenu() {
           })}
         </ul>
 				</div>
-			<div className="burger__btn" onClick={() => setNav(!nav)}>
+			<div className="burger__btn" onClick={() => setNav(!nav) }>
 			   {nav ? <AiOutlineClose size={30}/> : <AiOutlineMenu size={30}/>}
       </div>
 			</div>
