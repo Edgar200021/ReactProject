@@ -1,6 +1,7 @@
 .product__item {
   display: flex;
   text-align: start;
+  gap: 5rem;
 }
 
 .product__title {

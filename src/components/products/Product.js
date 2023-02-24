@@ -5,25 +5,25 @@ import img4 from './products-img/product4.jpg'
 
 const products = [
   {
-    id: 1,
+    id: 0,
     img: img1,
     title: 'Silver',
     description: 'Серебристый',
   },
   {
-    id: 2,
+    id: 1,
     img: img2,
     title: 'Deep purple',
     description: 'Темно фиолетовый',
   },
   {
-    id: 3,
+    id: 2,
     img: img3,
     title: 'Gold',
     description: 'Золотой',
   },
   {
-    id: 4,
+    id: 3,
     img: img4,
     title: 'Spaceblack',
     description: 'Космический черный',

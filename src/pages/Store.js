@@ -7,13 +7,12 @@ import '../styles/main.css'
 export default function Store() {
   const { id } = useParams()
   const product = products[id]
-  console.log(product)
   return (
     <main>
       <section className="products-store">
         <div className="container">
           <h2 className="second-title">Характеристики</h2>
-          <div className="products__box">
+          <div className="products__container">
             <img className="products__img" src={product.img} alt="img" />
             <ul className="products__list">
               <Productsparams />

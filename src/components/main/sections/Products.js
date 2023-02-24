@@ -1,7 +1,7 @@
 import '../style.css'
 import { NavLink } from 'react-router-dom'
 
-import {products} from '../../products/Product.js'
+import { products } from '../../products/Product.js'
 
 export default function Product() {
   return (
@@ -10,10 +10,10 @@ export default function Product() {
         <div className="products__inner">
           <h2 className="second-title">ВЫБЕРИ СВОЙ ЦВЕТ</h2>
           <div className="products__box">
-            {products.map((product, index) => {
+            {products.map((product) => {
               return (
-                <div key={index} className="product__box">
-                  <NavLink to={`/product/${index}`}>
+                <div key={product.id} className="product__box">
+                  <NavLink to={`/product/${product.id}`}>
                     <img
                       className="product__img"
                       alt="Iphone"
